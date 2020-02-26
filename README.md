@@ -3,11 +3,11 @@
 ## Project for Udacity Data Scientist Nanodegree 
 
 ## Table of Contents
-Python Packeges used
-Project Motivation
-File Descriptions
-Results
-Licensing, Authors, and Acknowledgements
+1. Python Packeges used
+2. Project Motivation
+3. File Descriptions
+4. Results
+5. Licensing, Authors, and Acknowledgements
 
 ## This project is executed in a Jupyter Notebook with the help of below packages
 Numpy
