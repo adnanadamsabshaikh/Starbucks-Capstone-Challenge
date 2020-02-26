@@ -10,15 +10,15 @@
 5. Licensing, Authors, and Acknowledgements
 
 ## This project is executed in a Jupyter Notebook with the help of below packages
-Numpy
-Pandas
-Matplotlib
-Seaborn
-Calendar
-Sklearn
-math 
-json
-pickle 
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. Calendar
+6. Sklearn
+7. math 
+8. json
+9. pickle 
 
 ## Project Motivation
 It is the Starbuck's Capstone Challenge of the Data Scientist Nanodegree in Udacity. We get the dataset from the program that creates the data simulates how people make purchasing decisions and how those decisions are influenced by promotional offers. We want to make a recommendation engine that recommends Starbucks which offer should be sent to a particular customer.The goal of this project is to build a model that predicts how will the customer respond will to an offer.
