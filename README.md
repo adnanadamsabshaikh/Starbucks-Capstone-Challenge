@@ -25,6 +25,7 @@ It is the Starbuck's Capstone Challenge of the Data Scientist Nanodegree in Udac
 
 ## The data is contained in three files:
 portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.) 
+    
     * id (string) - Offer id
     
     * offer_type (string) - String that describes the offer type
@@ -42,28 +43,39 @@ portfolio.json - containing offer ids and meta data about each offer (duration, 
 
 
 profile.json - demographic data for each customer 
+    
     * age (int) - Customer age
+    
     * became_member_on (int) - Date when customer created an app account
+    
     * gender (str) - Customer gender (note some entries contain 'O' for other rather than M or F)  
+    
     * id (str) - Customer id
+    
     * income (float) - Customer's income  
 
 transcript.json - records for transactions, offers received, offers viewed, and offers completed 
+    
     * event (str) - Record description (i.e. transaction, offer received, offer viewed, etc.)
+    
     * person (str) - Customer id
+    
     * time (int) - Time in hours. The data begins at time t=0
+    
     * value - (dict of strings) - Either an offer id or transaction amount depending on the record
 
 ## Results
-•	The naive model accuracy was 0.471 and its F1-score was 0.640
-•	Random forest model had the best accuracy (0.743) and F1-score (0.735) compared to gradient boosting, logistic regression
+The naive model accuracy was 0.471 and its F1-score was 0.640
+
+Random forest model had the best accuracy (0.743) and F1-score (0.735) compared to gradient boosting, logistic regression
+
 Rank	by Classifier Type	(Accuracy,	F1- score)
 1	Random Forest	(0.743177,	0.734613)
 2	Gradient Boosting	(0.735191,	0.72294)
 3	Logistic Regression	(0.723203,	0.715932)
 4	Naïve Predictor	(0.4688,	0.638344)
 
-•	Using grid search we refined the Random forest hyperparameters and accuracy increase from 0.743 to 0.752 and F1 -score 0.735 to 0.742
+Using grid search we refined the Random forest hyperparameters and accuracy increase from 0.743 to 0.752 and F1 -score 0.735 to 0.742
 
 The analysis suggests that a random forest model has the best training data accuracy and F1-score. The refined random forest model hyperparameters using a grid search suggests that the resulting random forest model has a training data accuracy of 0.752 and an F1-score of 0.742. The test data set accuracy of 0.733 and F1-score of 0.727 suggests that the random forest model we constructed did not overfit the data
 
