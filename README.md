@@ -83,5 +83,7 @@ The top five features based on their importance are- Reward, duration days, diff
 
 Since the top three features are associated with a customer offer, it may be possible to improve the performance of a random forest model by creating features that describe an offer’s success rate as a function of offer difficulty, duration, and reward. These additional features should provide a random forest classifier the opportunity to construct a better decision boundary that separates successful and unsuccessful customer offers.
 
+Results A summary of the results of the analysis can be found in the Jupyter notebook or in this blog on medium (https://medium.com/@kaddu4u/analyzing-starbucks-customers-offer-conversion-6655d71b406b).
+
 ## Licensing, Authors, Acknowledgements
 Must give credit to Stakbucks for the data
