@@ -26,13 +26,18 @@ It is the Starbuck's Capstone Challenge of the Data Scientist Nanodegree in Udac
 ## The data is contained in three files:
 portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.) 
     * id (string) - Offer id
+    
     * offer_type (string) - String that describes the offer type
         * bogo (Buy One Get One Free)  
         * discount
         * informational
+    
     * difficulty (int) - Minimum amount a customer must spend to complete an offer
+    
     * reward (int) - Reward given for completing an offer
+    
     * duration (int) - Offer duration [days]  
+    
     * channels (list of strings)
 
 
