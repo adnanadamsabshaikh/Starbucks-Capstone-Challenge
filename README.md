@@ -71,8 +71,11 @@ Random forest model had the best accuracy (0.743) and F1-score (0.735) compared 
 
 Rank	by Classifier Type	(Accuracy,	F1- score)
 1	Random Forest	(0.743177,	0.734613)
+
 2	Gradient Boosting	(0.735191,	0.72294)
+
 3	Logistic Regression	(0.723203,	0.715932)
+
 4	Naïve Predictor	(0.4688,	0.638344)
 
 Using grid search we refined the Random forest hyperparameters and accuracy increase from 0.743 to 0.752 and F1 -score 0.735 to 0.742
